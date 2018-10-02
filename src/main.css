@@ -1,0 +1,81 @@
+/* fix for margin overlap and repeating background*/
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* end of fix */
+
+body {
+    font-family: 'Source Serif Pro', sans-serif;
+    border: 4px solid red;
+    background: linear-gradient(rgb(25, 97, 206), grey);
+    color: rgba(255, 255, 255, 0.945);
+    min-height: 100vh; /*part of fix for margin overlap */
+}
+
+h3, li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* center elements nav-bar normal */
+
+/* .navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float: none;
+    padding-right: 1em;
+    padding-left: 1em;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 0 0.5em;
+}
+
+.nav-link > a {
+    color: whitesmoke;
+} */
+
+.wrapper {
+    height: 100%;
+    width:100%;
+}
+
+.navbar {
+    border: 1px solid red;
+}
+
+.about {
+    border: 1px solid red;
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.projects {
+    border: 1px solid red;
+    text-align: center;
+}
+
+.contact {
+    border: 1px solid red;
+    text-align: center;
+}
+
+
+/* styling for sections */
+
+.about h3 {
+    margin: 0.5em;
+}
+
+.card-title {
+    color: black;
+}
+
